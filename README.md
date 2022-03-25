@@ -22,7 +22,7 @@ Database Structure
 
 ## Setup/Installation Requirements
 
-1. If you don't already have C# and .NET installed on your computer, you can get the Software Develment Kit or SDK for Mac here: Dot.Net for Mac and for Windows here: Dot.Net for Windows. Follow the instructions detailed in both links above for set up.
+1. If you don't already have C# and .NET installed on your computer, you can get the Software Development Kit or SDK for Mac here: Dot.Net for Mac and for Windows here: Dot.Net for Windows. Follow the instructions detailed in both links above for set up.
 2. If not already installed, download: MySql Community
 3. If not already installed, download: MySql Workbench
 4. Follow the instruction here for configuring MySql:
@@ -40,9 +40,11 @@ Database Structure
 9. As an alternative to importing the database with MySql Workbench, you can install dotnet add package Microsoft.EntityFrameworkCore.Design -v 5.0.0 on the command line in the Factory main directory.
 10. In the Factory main directory run dotnet build on the command line to check for errors
 11. Next run $ dotnet ef migrations add Initial. Note when making changes to the schema (i.e. making changes in the models that affect the database such as adding a new attribute, you would change "Initial" to something more descriptive of what change you are making to the table.
-12. Next run dotnet ef database update to update the table/s.
-13. Run dotnet build again to make sure there are no errors.
-14. If everything builds correctly, run dotnet run on the command line to start the web server
+12. Next Run: $ dotnet ef migrations add Initial
+13. Run: $ dotnet ef database update
+ This will update the data base tables.
+14. Run: $ dotnet build again to make sure there are no errors.
+15. Run: $ dotnet run on the command line to start the web server
 ## Known Bugs
 
 - _None at this time_
