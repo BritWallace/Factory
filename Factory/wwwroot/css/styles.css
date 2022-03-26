@@ -9,4 +9,32 @@ html {
   height: 100%;
   margin: 0;
   padding: 0;
+
+}
+
+h1, h5, li {
+  font-family: 'monospace';
+  font-size: 100px; 
+  text-shadow: rgb(50, 19, 39);
+  color: rgb(199, 97, 29);
+  font-weight: bold; 
+  margin: auto;
+  width: 50%;
+  border: 10px solid rgb(65, 21, 4);
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(243, 239, 231);
+  
+
+}
+
+.splash {
+  font-family: 'monospace';
+  font-size: 40px;
+  color: rgb(199, 97, 29);
+  background-color: rgb(228, 217, 194);
+}
+
+body {
+  background-color: rgb(228, 217, 194);
 }
