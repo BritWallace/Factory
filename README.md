@@ -47,7 +47,7 @@ Database Structure
 15. Run: $ dotnet run on the command line to start the web server
 ## Known Bugs
 
-- _None at this time_
+- _Both delete buttons on the engineer page do not work. However, The engineers can be removed and replaced on other pages. There is some styling that would be a little more user friendly that I would like to work on too._
 
 ## Contact Me
 
