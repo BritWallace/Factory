@@ -30,11 +30,16 @@ h1, h5, li {
 
 .splash {
   font-family: 'monospace';
-  font-size: 40px;
+  font-size: 20px;
   color: rgb(199, 97, 29);
   background-color: rgb(228, 217, 194);
 }
 
 body {
   background-color: rgb(228, 217, 194);
+}
+
+.add {
+  font-family: 'monospace';
+  font-size: 30px;
 }
